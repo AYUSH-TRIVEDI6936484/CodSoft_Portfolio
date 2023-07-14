@@ -10,3 +10,19 @@ header{
     background: url('me.jpeg');
     background-size: cover;
 }
+
+nav{
+    width: 25%;
+    height: 100vh;
+    background-color: palegreen;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.logo{
+    font-size: 3em;
+    color: white;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
