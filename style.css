@@ -35,6 +35,7 @@ nav{
     margin: 20px auto;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.4s ease;
 }
 
 .menu{
@@ -45,6 +46,17 @@ nav{
     margin: 0 20px;
 }
 
+/* .menu a:first-child{
+    background-color: #575d6b;
+} */
+
+.menu a:hover{
+    background-color: #575d6b;
+}
+
+.menu .active{
+    background-color: #575d6b;
+}
 .s-icon{
     position: absolute;
     bottom: 8%;
@@ -60,3 +72,21 @@ nav{
     cursor: pointer;
 }
 
+header .footer{
+    text-align: center;
+    background-color:#575d6b;
+    width: 25%;
+    font-size: 12px;
+    position: fixed;
+    letter-spacing: 0.5px;
+    bottom: 0;
+    left: 0;
+    padding: 14px;
+    color: white;
+    transition: 0.4s all linear;
+}
+
+header .footer a{
+    color: white;
+    text-decoration: none;
+}
