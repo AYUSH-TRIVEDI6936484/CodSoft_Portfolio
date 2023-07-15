@@ -2,13 +2,67 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+    position: sticky;
+    top:0;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin: 10px 15px;
+    color:blue;
+}
+
+.navbar a:hover{
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-bottom: 2px solid green;
+}
+
+section{
+    width: 100%;
+    height: 400px;
+}
+
+.two{
+    background-color: aqua;
+}
+
+.three{
+    background-color: blue;
+}
+
+.four{
+    background-color:green;
+}
+/* header{
+    width: 100%;
     height: 100vh;
     background: linear-gradient(90deg,rgba(25,42,86,1),rgba(47,56,64,0.2)),url('me.jpeg');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 nav{
@@ -46,9 +100,9 @@ nav{
     margin: 0 20px;
 }
 
-/* .menu a:first-child{
+.menu a:first-child{
     background-color: #575d6b;
-} */
+} 
 
 .menu a:hover{
     background-color: #575d6b;
@@ -90,3 +144,61 @@ header .footer a{
     color: white;
     text-decoration: none;
 }
+
+main{
+    height: 0;
+    position: absolute;
+    top: 0;
+    margin-left: 390px;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+}
+
+#home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    position: relative;
+}
+
+#home::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0,0,0,0.431); 
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#home .row{
+    z-index: 1;
+}
+
+#home .row h1{
+    font-size: 55px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    line-height: 70px;
+}
+
+#home .row h1 span{
+    color: #575d6b;
+}
+
+#home .row p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#home .row p span{
+    border-bottom: 4px solid #575d6b;
+} */
