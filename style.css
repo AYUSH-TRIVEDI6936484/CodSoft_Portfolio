@@ -61,18 +61,18 @@ section{
 .main-section{
     background: url('me.jpeg');
     background-size: cover;
+    background-position: top;
 }
 
 .main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     padding-top: 133px;
+    padding-left: 100px;
 }
 
 .main h1{
     font-size: 55px;
-    color: #8e2424;
+    color: #fff;
     font-weight: 500;
     letter-spacing: -1px;
     margin-bottom: 10px;

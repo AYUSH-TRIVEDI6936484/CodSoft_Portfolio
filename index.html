@@ -15,7 +15,7 @@
             Portfolio
         </div>
         <nav class="navbar">
-            <a href="#home">Home</a>
+            <a href="#home" class="active">Home</a>
             <a href="#about">About Me</a>
             <a href="#skills">Skills</a>
             <a href="#">Resume</a>
@@ -32,7 +32,22 @@
     <section class="two">2</section>
     <section class="three">3</section>
     <section class="four">4</section>
-    <!-- <script type="typed.js"></script> -->
+    <script src="typed.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script>
+        var typed = new Typed('.auto-input', {
+            strings: [
+                'Front-End Developer',
+                'Freelancer',
+                'Competitive Programmer'
+            ],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 2000,
+            loop: true,
+        });
+    </script>
+    <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
 </body>
 
 </html>
