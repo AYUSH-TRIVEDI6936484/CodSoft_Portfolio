@@ -2,7 +2,7 @@ let typed= new Typed('.auto-input',{
     strings: ['Front-End Developer!', 'Freelancer!','Competitive Programmer!'],
     typeSpeed: 100,
     backSpeed: 100,
-    backDelay: 2000,
+    backDelay: 200,
     loop: true,
 });
 
@@ -13,7 +13,7 @@ let navLinks= document.querySelectorAll('header nav a');
 window.onscroll = () =>{
     sections.forEach(sec=>{
         let top=window.scrollY;
-        let offset=sec.offsetTop - 150;
+        let offset=sec.offsetTop;
         let height=sec.offsetHeight;
         let id= sec.getAttribute('id');
 
