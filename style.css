@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -339,4 +339,64 @@ footer {
 .bio-data .heading{
     margin-bottom: 91px;
     font-size: 3rem;
+}
+
+.projects .title::after {
+    content: "What I did ?";
+  }
+  
+  .projects .carousel .card {
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .projects .carousel .card:hover {
+    background: #6d4a15;
+  }
+  
+  .projects .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+  
+  .projects .carousel .card:hover .box {
+    transform: scale(1.05);
+  }
+  
+  .projects .carousel .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+  }
+  
+  .projects .carousel .card img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #888c8d;
+    transition: all 0.3s ease;
+  }
+  
+  .projects .carousel .card:hover img {
+    border-color: #fff;
+  }
+
+.carousel{
+    display: block;
+}
+
+.card{
+    display: block;
+}
+
+.box img{
+    font-size: 12px;
 }
