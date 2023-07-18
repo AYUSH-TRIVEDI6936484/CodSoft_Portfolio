@@ -1,7 +1,7 @@
 let typed = new Typed('.auto-input', {
     strings: ['Front-End Developer!', 'Freelancer!', 'Competitive Programmer!'],
-    typeSpeed: 100,
-    backSpeed: 100,
+    typeSpeed: 150,
+    backSpeed: 150,
     backDelay: 200,
     loop: true,
 });

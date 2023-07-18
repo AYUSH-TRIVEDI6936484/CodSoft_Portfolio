@@ -307,3 +307,30 @@ footer {
 .bio-data .read:hover{
     background-color: #3e8e41;
 }
+
+.about-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about-txt .common-heading{
+    margin-bottom: 91px;
+}
+
+.btn{
+    background-color: blue;
+}
+
+.bio-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bio-data .heading{
+    margin-bottom: 91px;
+}
